@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: 'Helvetica Neue', 'Open Sans Pro', 'Arial', sans-serif; }
+
+.navbar-light .navbar-toggler,
+.navbar-dark .navbar-toggler {
+  border-color: transparent; }
+
+  .replacer-light-fixed-navbar {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff; }
+
+.replacer-dark-fixed-navbar {
+  background-color: #000; }
+
+@media (max-width: 1200px) {
+  .navbar-light.fixed-top {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    background-color: #fff; }
+
+  .navbar-dark.fixed-top {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    background-color: transparent; } }
+.dropdown-toggle:after {
+  vertical-align: 0.2em; }
+
+.navbar-brand span {
+  display: inline-block;
+  min-height: 2rem;
+  min-width: 10rem;
+  background-repeat: no-repeat;
+  background-size: auto 100%; }
+
+.navbar-light .navbar-brand span {
+  background-image: url("../images/free_logo_2.png"); }
+
+.navbar-dark .navbar-brand span {
+  background-image: url("../images/free_logo_2.png"); }
+
+.navbar.bg-white {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
